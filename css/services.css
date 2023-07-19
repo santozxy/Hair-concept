@@ -20,18 +20,19 @@
     opacity: 0.8;
 }
 
-.services-title{
+.services-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.services-title h1{
+.services-title h1 {
     padding: 4rem;
     color: var(--secundary);
 }
-.services-title p{
+
+.services-title p {
     text-align: center;
     font-size: 1.5rem;
     color: var(--terciary);
@@ -42,7 +43,7 @@
 
 /* Sliders */
 
-.sliders {
+/* .sliders {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -75,12 +76,40 @@
     align-items: center;
     text-align: center;
     color: var(--terciary);
+} */
+
+swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+    height: 100%;
+    background-color: #1212128e;
+    border-radius: 0.7rem;
+}
+
+swiper-slide p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--terciary);
+    padding: 1rem;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 0.7rem;
 }
 
 /* Botão Ver Mais */
 
 
-.btn-service{
+.btn-service {
     text-transform: uppercase;
     color: var(--terciary);
     font-size: 1.5rem;
@@ -93,7 +122,7 @@
 
 }
 
-.btn-service:hover{
+.btn-service:hover {
     border: 2px solid var(--terciary);
     transform: scale(1.1);
     animation: translateY 0.8s infinite alternate;
