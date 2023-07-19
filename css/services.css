@@ -1,0 +1,120 @@
+.services {
+    position: relative;
+}
+
+.services::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to top,
+            rgba(0, 0, 0, 0.4),
+            var(--primary)),
+        url("../assets/bg-services.jpg");
+
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+.services-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-title h1{
+    padding: 4rem;
+    color: var(--secundary);
+}
+.services-title p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--terciary);
+    padding: 3rem;
+    color: var(--terciary);
+    max-width: 80%;
+}
+
+/* Sliders */
+
+.sliders {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22rem;
+    height: 32rem;
+    margin-bottom: 2rem;
+    background-color: var(--primary);
+    border-radius: 0.6rem;
+}
+
+.slider img {
+    width: 14rem;
+    height: 18rem;
+    border-radius: 0.6rem;
+}
+
+.services-description{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--terciary);
+}
+
+/* Botão Ver Mais */
+
+
+.btn-service{
+    text-transform: uppercase;
+    color: var(--terciary);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 1rem;
+    border: 0;
+    border-radius: 0.4rem;
+    padding: 0.6rem 5rem;
+    background-color: var(--secundary);
+
+}
+
+.btn-service:hover{
+    border: 2px solid var(--terciary);
+    transform: scale(1.1);
+    animation: translateY 0.8s infinite alternate;
+    color: var(--primary);
+}
+
+
+/* Animações */
+
+@keyframes translateY {
+    from {
+        transform: translateY(0) scale(1);
+    }
+
+    to {
+        transform: translateY(-0.5rem) scale(1.1);
+    }
+}
+
+@media screen and (max-width:490px) {
+    .services h1 {
+        font-size: 3.5rem;
+    }
+}
