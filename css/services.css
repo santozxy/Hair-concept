@@ -1,5 +1,6 @@
 .services {
     position: relative;
+    padding-bottom: 6rem;
 }
 
 .services::before {
