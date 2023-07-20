@@ -1,5 +1,4 @@
-
-.about{
+.about {
     background-color: var(--primary);
     padding: 10rem 0;
 }
@@ -38,21 +37,21 @@
     z-index: 1;
 }
 
-.experience h1{
+.experience h1 {
     font-size: 4rem;
     font-family: 'Style Script';
     text-transform: capitalize;
     font-weight: 100;
 }
 
-.photo{
+.photo {
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.photo img{
+.photo img {
     width: 60%;
     border-radius: 1rem;
 }
@@ -60,10 +59,11 @@
 
 
 @media screen and (max-width:978px) {
-    .description{
+    .description {
         grid-template-columns: 1fr;
     }
-    .photo img{
+
+    .photo img {
         width: 80%;
         border-radius: 1rem;
     }
@@ -75,7 +75,7 @@
     .profissional h1 {
         font-size: 3rem;
     }
-  
+
     .profissional p {
         font-size: 1rem;
     }

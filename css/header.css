@@ -60,7 +60,8 @@ nav li {
     font-weight: bold;
 }
 
-nav li:hover,a:hover {
+nav li:hover,
+a:hover {
     transform: scale(1.1);
     color: var(--terciary);
 }
@@ -97,18 +98,21 @@ nav li:hover,a:hover {
         align-items: center;
         justify-content: center;
     }
-    header h1{
+
+    header h1 {
         font-size: 5rem;
     }
+
     nav a {
         font-size: 2rem;
     }
 }
 
 @media screen and (max-width:490px) {
-    header h1{
+    header h1 {
         font-size: 3.5rem;
     }
+
     nav a {
         font-size: 1rem;
     }
