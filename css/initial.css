@@ -33,7 +33,7 @@
     margin: 1rem;
     border: 0;
     border-radius: 0.4rem;
-    padding: 1rem 4rem;
+    padding: 1rem 3.9rem;
     background-color: var(--secundary);
 
 }
@@ -62,11 +62,6 @@
 
 @media screen and (max-width:590px) {
     .initial-container h2 {
-        font-size: 1.2rem;
-    }
-
-    .initial-container p {
         font-size: 1rem;
-        max-width: 300px;
     }
 }
