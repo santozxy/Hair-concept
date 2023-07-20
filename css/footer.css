@@ -1,0 +1,50 @@
+
+footer{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    font-family: 'Bebas Neue';
+    letter-spacing: 5px;
+    font-size: 4.3rem;
+    color: var(--terciary);
+    padding: 2rem;
+    text-align: center;
+}
+
+footer span {
+    color: var(--secundary);
+    padding-bottom:1rem ;
+}
+
+footer p{
+    color: var(--terciary);
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.footer-icons i {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    color: var(--terciary);
+}
+
+.footer-icons i:hover {
+    color: var(--secundary);
+    animation: translateY 0.6s infinite alternate;
+}
+
+@media screen and (max-width:490px) {
+    footer h1 {
+        font-size: 2.1rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+

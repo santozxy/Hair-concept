@@ -7,9 +7,10 @@
 @import url(css/initial.css);
 @import url(css/about.css);
 @import url(css/services.css);
+@import url(css/footer.css);
 
 :root {
-    --primary: #1d1d1d;
+    --primary: #17171c;
     --secundary: #cbba47;
     --terciary: #fff;
     --quaternary: #ccc;
