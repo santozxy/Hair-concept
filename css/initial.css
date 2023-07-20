@@ -28,12 +28,12 @@
 .btn-act {
     text-transform: uppercase;
     color: var(--primary);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bolder;
     margin: 1rem;
     border: 0;
     border-radius: 0.4rem;
-    padding: .8rem 3rem;
+    padding: 1rem 4rem;
     background-color: var(--secundary);
 
 }
