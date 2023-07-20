@@ -70,30 +70,6 @@ swiper-slide img {
     border-radius: 0.7rem;
 }
 
-/* Botão Ver Mais */
-
-
-.btn-service {
-    text-transform: uppercase;
-    color: var(--terciary);
-    font-size: 1.5rem;
-    font-weight: bolder;
-    margin: 1rem;
-    border: 0;
-    border-radius: 0.4rem;
-    padding: 0.6rem 5rem;
-    background-color: var(--secundary);
-
-}
-
-.btn-service:hover {
-    border: 2px solid var(--terciary);
-    transform: scale(1.1);
-    animation: translateY 0.8s infinite alternate;
-    color: var(--primary);
-}
-
-
 /* Animações */
 
 @keyframes translateY {
