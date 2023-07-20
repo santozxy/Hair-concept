@@ -73,7 +73,7 @@ a:hover {
 
 .header-icons i:hover {
     color: var(--secundary);
-    animation: translateY 0.8s alternate;
+    animation: translateY 0.6s infinite alternate;
 }
 
 /* Animações */
